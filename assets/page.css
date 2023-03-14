@@ -1,0 +1,194 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto&display=swap);
+
+body
+{
+    font-family: 'Roboto', sans-serif;
+    background-color: #fafafa;
+}
+
+
+/*TIPOGRAFIA*/
+h1
+{
+        font-size: 16px;
+    color: #3F51B5;
+}
+h2
+{
+    font-size: 14px;
+}
+
+h3
+{
+    font-size: 13px;
+}
+
+h6.tituloCabecalho
+{
+    font-size: 14px;
+    color:#0088CC;
+}
+p
+{
+    font-size: 13px;
+}
+
+p.textoBranco
+{
+    font-size: 13px;
+    color:#ffffff;
+}
+
+.link-noticia
+{
+    font-size: 12px;
+    font-style:italic;
+}
+
+legend.tituloFormulario
+{
+    font-size: 14px;
+    color:#0088CC;
+}
+
+/*END TIPOGRAFIA*/
+
+
+/*BEGIN FOOTER*/
+#footer-content
+{
+    background-color: #f5f5f5;
+    width: 100%;
+    height: 80px;
+    border-top: solid 2px #3F51B5;
+    margin-top: 10px;
+    padding-top:5px;
+}
+
+#footer
+{
+    width: 100%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    display: block;
+    float: left;
+}
+
+
+.mapa
+{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    background-color: #bdd865;
+    display: block;
+    float: right;
+}
+
+#footerLeft
+{
+    float: left;
+    width: 50%;
+}
+
+#footerRight
+{
+    float: right;
+    width: 50%;
+    font-family: Georgia, "Times New Roman" ,Times,serif;
+    font-size: 13px;
+}
+
+#sobre
+{
+    clear: both;
+}
+
+.linksUteis
+{
+    text-decoration: none;
+    color: #000000;
+    font-style: italic;
+}
+
+a.textoBranco
+{
+    font-size: 13px;
+    font-family: Georgia, "Times New Roman" ,Times,serif;
+    color:#ffffff;
+}
+
+/*END FOOTER*/
+
+.box-destaque
+{
+    color: #ffffff;
+    background-color: #725238;
+    background-image: url('../images/ornamento-simples.png') ;
+    background-repeat:repeat-x;
+    padding: 3px 15px 3px 15px;
+    box-shadow: 6px 6px 5px rgba(50, 50, 50, 0.5);
+    -moz-border-radius: 6px;
+    -webkit-box-shadow: 6px 6px 5px rgba(50, 50, 50, 0.5);
+    -moz-box-shadow: 6px 6px 5px rgba(50, 50, 50, 0.5);
+    border-radius: 3px;
+}
+
+
+.sidebar
+{
+    margin-top:20px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 1px 1px 4px rgba(100, 100, 100, 0.5);
+    -moz-box-shadow: 1px 1px 4px rgba(100, 100, 100, 0.5);
+    box-shadow: 1px 1px 4px rgba(100, 100, 100, 0.5);
+}
+.sidebar input[type="text"], #sidebar textarea
+{
+    width: 260px;
+}
+.sidebar .content
+{
+    padding: 10px;
+}
+
+label { display: block; margin-top: 4px; }
+label.error { float: none; color: red; margin: 4px 0 0; vertical-align: top; font-size: 12px }
+p { clear: both; }
+.submit { margin-top: 1em; }
+em { font-weight: bold; padding-right: 1em; vertical-align: top; }
+
+
+.box_magico
+{
+    margin-top:20px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 1px 1px 10px rgba(100, 100, 100, 0);
+    -moz-box-shadow: 1px 1px 10px rgba(100, 100, 100, 0);
+    box-shadow: 1px 1px 10px rgba(100, 100, 100, 0);
+    width:600px;
+    margin: auto;
+    padding:10px 5px 5px 10px;
+}
+.box_magico input[type="text"], #sidebar textarea
+{
+    width: 260px;
+}
+
+.ie_7
+{
+    margin-top:230px;
+}
+
+
+/*BEGIN PRICING TABLE*/
+
+.pricing-table{border-radius:5px;padding:20px 0;color:#eeeeee;text-align:center;}.pricing-table h3{color:#0088cc;text-align:center;width:100%;}
+.pricing-table ul{list-style-type:none;margin:20px;}
+.pricing-table li{border-bottom:1px solid #555555;margin-bottom:5px;padding-bottom:5px;}
+.pricing-table h4{color:#eeeeee;text-align:center;margin-bottom:20px;}
+
+/*END PRICING TABLE*/
